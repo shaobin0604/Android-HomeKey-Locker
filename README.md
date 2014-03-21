@@ -8,7 +8,7 @@ As there are a lot questions about "how to disable home button in android?" on `
 * [Android - Is It possible to disable the click of home button](http://stackoverflow.com/questions/2162182/android-is-it-possible-to-disable-the-click-of-home-button)
 * [How to disable Home and other system buttons in Android?](http://stackoverflow.com/questions/17549478/how-to-disable-home-and-other-system-buttons-in-android)
 
-This library provide a way to do this job.
+This library provide a easy way to do this job.
 
 Work
 ====
