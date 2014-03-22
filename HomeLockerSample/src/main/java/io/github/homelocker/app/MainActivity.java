@@ -7,18 +7,18 @@ import android.view.MenuItem;
 import android.widget.CompoundButton;
 import android.widget.ToggleButton;
 
-import io.github.homelocker.lib.OverlayDialog;
-
+import io.github.homelocker.lib.HomeKeyLocker;
 
 public class MainActivity extends ActionBarActivity implements CompoundButton.OnCheckedChangeListener {
 
     private ToggleButton mTbLock;
-    private OverlayDialog mOverlayDialog;
+    private HomeKeyLocker mHomeKeyLocker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mHomeKeyLocker = new HomeKeyLocker();
         mTbLock = (ToggleButton) findViewById(R.id.tb_lock);
         mTbLock.setOnCheckedChangeListener(this);
     }
@@ -48,16 +48,17 @@ public class MainActivity extends ActionBarActivity implements CompoundButton.On
     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
         if (buttonView == mTbLock) {
             if (isChecked) {
-                if (mOverlayDialog == null) {
-                    mOverlayDialog = new OverlayDialog(this);
-                    mOverlayDialog.show();
-                }
+                mHomeKeyLocker.lock(this);
             } else {
-                if (mOverlayDialog != null) {
-                    mOverlayDialog.dismiss();
-                    mOverlayDialog = null;
-                }
+                mHomeKeyLocker.unlock();
             }
         }
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mHomeKeyLocker.unlock();
+        mHomeKeyLocker = null;
     }
 }

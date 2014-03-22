@@ -10,8 +10,8 @@
 
     <ToggleButton
         android:id="@+id/tb_lock"
-        android:textOn="Lock"
-        android:textOff="UnLock"
+        android:textOn="HOME Key locked"
+        android:textOff="HOME key unlocked"
         android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
