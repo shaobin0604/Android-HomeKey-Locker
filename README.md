@@ -10,6 +10,8 @@ As there are a lot questions about "how to disable home button in android?" on `
 
 This library provide a easy way to do this job.
 
+![Android-HomeKey-Locker Sample Screenshots!][1] ![Android-HomeKey-Locker Sample Screenshots!][2]
+
 
 Usage
 =====
@@ -48,7 +50,7 @@ Not Work
 License
 =======
 
-    Copyright 2013 Square, Inc.
+    Copyright 2013 shaobin
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -61,3 +63,6 @@ License
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+ [1]: art/home-key-unlocked.png
+ [2]: art/home-key-locked.png
