@@ -10,7 +10,7 @@ As there are a lot questions about "how to disable home button in android?" on `
 
 This library provide a easy way to do this job.
 
-![Android-HomeKey-Locker Sample Screenshots!][1] ![Android-HomeKey-Locker Sample Screenshots!][2]
+![Android-HomeKey-Locker Sample Screenshots!][1]\    ![Android-HomeKey-Locker Sample Screenshots!][2]
 
 
 Usage
@@ -25,13 +25,16 @@ homeKeyLocker.unlock();
 // home key is unlocked since then
 ```
 
+Known Issues
+============
+
 Side Effect
-===========
+-----------
 Lock **HOME KEY**  will also lock **BACK KEY** and **MENU KEY**.
 
 
 Work
-====
+----
 * Android 4.4.2
  * CM11 (Google Nexus S, Moto Defy)
 * Android 4.0.3
@@ -43,7 +46,7 @@ Work
  * HTC Desire S (Sense 3.0)
 
 Not Work
-========
+--------
 * [MIUI](http://www.miui.com/)
 * [Flyme OS](http://flyme.meizu.com/flysys/en/system.jsp)
 
