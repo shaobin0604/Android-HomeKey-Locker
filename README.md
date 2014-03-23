@@ -64,5 +64,5 @@ License
     See the License for the specific language governing permissions and
     limitations under the License.
 
- [1]: art/home-key-unlocked.png
- [2]: art/home-key-locked.png
+ [1]: HomeLockerSample/art/device-home-key-unlocked.png
+ [2]: HomeLockerSample/art/device-home-key-locked.png
