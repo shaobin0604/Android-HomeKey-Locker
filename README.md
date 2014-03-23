@@ -10,8 +10,13 @@ As there are a lot questions about "how to disable home button in android?" on `
 
 This library provide a easy way to do this job.
 
-![Android-HomeKey-Locker Sample Screenshots!][1]\    ![Android-HomeKey-Locker Sample Screenshots!][2]
+Demo Application
+================
+The demo application (the source is in the repository) has been published onto Google Play for easy access:
 
+![Android-HomeKey-Locker Sample Screenshots!][1]    ![Android-HomeKey-Locker Sample Screenshots!][2]
+
+[![Get it on Google Play](http://www.android.com/images/brand/get_it_on_play_logo_small.png)][3]
 
 Usage
 =====
@@ -69,3 +74,4 @@ License
 
  [1]: HomeLockerSample/art/device-home-key-unlocked-half.png
  [2]: HomeLockerSample/art/device-home-key-locked-half.png
+ [3]: https://play.google.com/store/apps/details?id=io.github.homelocker.app
