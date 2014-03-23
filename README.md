@@ -4,9 +4,9 @@ Utility to disable **HOME KEY** in Android Activity.
 
 As there are a lot questions about "how to disable home button in android?" on `Stack Overflow`, such as
 
-* [how to disable home button in android?](http://stackoverflow.com/questions/17183905/how-to-disable-home-button-in-android)
-* [Android - Is It possible to disable the click of home button](http://stackoverflow.com/questions/2162182/android-is-it-possible-to-disable-the-click-of-home-button)
-* [How to disable Home and other system buttons in Android?](http://stackoverflow.com/questions/17549478/how-to-disable-home-and-other-system-buttons-in-android)
+* [how to disable home button in android?][4]
+* [Android - Is It possible to disable the click of home button][5]
+* [How to disable Home and other system buttons in Android?][6]
 
 This library provide a easy way to do this job.
 
@@ -14,9 +14,9 @@ Demo Application
 ================
 The demo application (the source is in the repository) has been published onto Google Play for easy access:
 
-![Android-HomeKey-Locker Sample Screenshots!][1]    ![Android-HomeKey-Locker Sample Screenshots!][2]
+![Android-HomeKey-Locker Sample Screenshots!][1]\    ![Android-HomeKey-Locker Sample Screenshots!][2]
 
-[![Get it on Google Play](http://www.android.com/images/brand/get_it_on_play_logo_small.png)][3]
+[![Get it on Google Play][7]][3]
 
 Usage
 =====
@@ -52,8 +52,8 @@ Work
 
 Not Work
 --------
-* [MIUI](http://www.miui.com/)
-* [Flyme OS](http://flyme.meizu.com/flysys/en/system.jsp)
+* [MIUI][8]
+* [Flyme][9]
 
 License
 =======
@@ -75,3 +75,9 @@ License
  [1]: HomeLockerSample/art/device-home-key-unlocked-half.png
  [2]: HomeLockerSample/art/device-home-key-locked-half.png
  [3]: https://play.google.com/store/apps/details?id=io.github.homelocker.app
+ [4]: http://stackoverflow.com/questions/17183905/how-to-disable-home-button-in-android
+ [5]: http://stackoverflow.com/questions/2162182/android-is-it-possible-to-disable-the-click-of-home-button
+ [6]: http://stackoverflow.com/questions/17549478/how-to-disable-home-and-other-system-buttons-in-android
+ [7]: http://www.android.com/images/brand/get_it_on_play_logo_small.png
+ [8]: http://www.miui.com/
+ [9]: http://flyme.meizu.com/flysys/en/system.jsp
