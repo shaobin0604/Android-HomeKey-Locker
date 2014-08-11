@@ -12,7 +12,7 @@ This library provide a easy way to do this job.
 
 **NOTICE**
 
-This library doesn't support devices with **virtual Home** key, such as
+This library doesn't support devices with **VIRTUAL HOME KEY**, such as
 
 + Galaxy Nexus
 + Nexus 4
