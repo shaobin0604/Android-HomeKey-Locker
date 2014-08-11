@@ -10,6 +10,16 @@ As there are a lot questions about "how to disable home button in android?" on `
 
 This library provide a easy way to do this job.
 
+**NOTICE**
+
+This library doesn't support devices with **virtual Home** key, such as
+
++ Galaxy Nexus
++ Nexus 4
++ Nexus 5
++ Nexus 7
+
+
 Demo Application
 ================
 The demo application (the source is in the repository) has been published onto Google Play for easy access:
