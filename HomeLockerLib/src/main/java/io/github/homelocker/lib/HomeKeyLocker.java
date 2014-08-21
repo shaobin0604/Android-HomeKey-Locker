@@ -11,6 +11,7 @@ import android.widget.FrameLayout;
 import static android.view.WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL;
 import static android.view.WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED;
 import static android.view.WindowManager.LayoutParams.TYPE_SYSTEM_ALERT;
+import static android.view.WindowManager.LayoutParams.TYPE_SYSTEM_ERROR;
 
 /**
  * Created by shaobin on 2014/3/22.
@@ -37,7 +38,7 @@ public class HomeKeyLocker {
         public OverlayDialog(Activity activity) {
             super(activity, R.style.OverlayDialog);
             WindowManager.LayoutParams params = getWindow().getAttributes();
-            params.type = TYPE_SYSTEM_ALERT;
+            params.type = TYPE_SYSTEM_ERROR;
             params.dimAmount = 0.0F; // transparent
             params.width = 0;
             params.height = 0;
