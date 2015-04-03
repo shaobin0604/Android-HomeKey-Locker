@@ -24,7 +24,8 @@ Demo Application
 ================
 The demo application (the source is in the repository) has been published onto Google Play for easy access:
 
-![Android-HomeKey-Locker Sample Screenshots!][1]\    ![Android-HomeKey-Locker Sample Screenshots!][2]
+<img src="HomeLockerSample/art/device-home-key-unlocked-half.png" width="300px" />
+<img src="HomeLockerSample/art/device-home-key-locked-half.png" width="300px" />
 
 [![Get it on Google Play][7]][3]
 
