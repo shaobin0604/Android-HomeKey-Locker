@@ -34,7 +34,7 @@ Usage
 in Activity
 
 ```java
-HomeKeyLocker homeKeyLoader = new HomeKeyLocker();
+HomeKeyLocker homeKeyLocker = new HomeKeyLocker();
 homeKeyLocker.lock(this);
 // home key is locked since then
 homeKeyLocker.unlock();
